@@ -10,6 +10,7 @@ class Config:
     YOUR_SITE_NAME = os.getenv("YOUR_SITE_NAME")
     DEFAULT_MODEL = os.getenv("DEFAULT_MODEL")
     BASE_URL = os.getenv("BASE_URL")
+    DATABASE_URL = os.getenv("DATABASE_URL")
 
 
     @staticmethod
