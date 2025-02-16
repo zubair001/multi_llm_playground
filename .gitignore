@@ -1,0 +1,40 @@
+# Python Bytecode Files
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# FastAPI logs
+*.log
+
+# Environment Variables
+.env
+
+# Pytest Cache
+.cache/
+
+# Editor & IDE Files
+.vscode/
+.idea/
+
+# Dependency directories
+pip-log.txt
+pip-delete-this-directory.txt
+*.egg-info/
+dist/
+build/
+*.tgz
+*.egg
+
+# Docker
+docker-compose.override.yml
+Dockerfile
+
+# OS files
+.DS_Store
+Thumbs.db
